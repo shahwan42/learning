@@ -1,0 +1,30 @@
+services:
+  mysql:
+    image: mysql:8.4
+    command:
+      - --innodb-buffer-pool-size=64M          # small on purpose: makes I/O visible
+      - --innodb-flush-log-at-trx-commit=1     # full durability; we'll measure its cost
+      - --slow-query-log=ON
+      - --slow-query-log-file=/var/log/mysql/slow.log
+      - --long-query-time=0                    # log everything (lab only)
+      - --log-output=FILE
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: lab
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./mysql-log:/var/log/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-uroot", "-proot"]
+      interval: 5s
+      retries: 20
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+volumes:
+  mysql-data:

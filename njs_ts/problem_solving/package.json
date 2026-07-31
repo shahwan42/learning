@@ -1,0 +1,8 @@
+{
+  "name": "problem-solving",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}

@@ -1,0 +1,3 @@
+module gocx
+
+go 1.26.5
