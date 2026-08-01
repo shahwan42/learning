@@ -14,7 +14,7 @@
 
 | # | Session | Book chapters | Track | Status |
 |---|---------|--------------|-------|--------|
-| 1 | The enemy: complexity & the strategic mindset | 1–3 | complexity_and_strategy | **taught — exercise 01 pending** |
+| 1 | The enemy: complexity & the strategic mindset | 1–3 | complexity_and_strategy | ✅ done 2026-07-31 (residue → S2 opener) |
 | 2 | Modules should be deep | 4 | deep_modules | |
 | 3 | Information hiding (and leakage) | 5 | deep_modules | |
 | 4 | Somewhat general-purpose + pull complexity downwards | 6, 8 | deep_modules | |
@@ -27,9 +27,10 @@
 
 ## Current position
 
-- **Session:** 1 — The enemy: complexity & the strategic mindset
-- **State:** attempt 1 reviewed (partial) — follow-up gates S1: task-1 consumer delta + task-3 redo → [exercises/01-coupling-order-total.md](exercises/01-coupling-order-total.md)
-- **Red flags captured:** 0 / 14 (first unlocks at S2)
+- **Session:** 2 — Modules should be deep (ch. 4) — next
+- **Opener gate (cold, 2 min):** the S1 residue — given a proposed fix, state degree-from → degree-to and the distance where the fixed coupling lives. Then S2 teaching begins; red flag #1 (Shallow Module) unlocks.
+- **Pre-reading for S2:** book ch. 4 in full (it's short).
+- **Red flags captured:** 0 / 14
 
 ## Session log
 
@@ -38,3 +39,4 @@
 | 2026-07-25 | (pre-book) | Profile captured; coupling-as-change-cost taught; exercise 01 issued |
 | 2026-07-30 | Course rebuilt around the book | 10-session map, red-flag game; session 1 re-taught through the book's lens; exercise 01 still the gate |
 | 2026-07-31 | 1 — attempt 1 | First session under the Less-Is-More program. Write path solid (vat-snapshot instinct ★); consumer-side blast radius missed (ERP/API/email — `total` changed meaning); task 3 picked the event = coupling.md's own decoupling trap. Follow-up issued, gates S1 |
+| 2026-07-31 | 1 — closed ✅ | Follow-up: readers/meaning-shift demonstrated; degree ranking demonstrated; distance-reach calculus still soft after 3 asks → taught directly (additive payload breakdown; rename-at-distance = breaking change), residue re-asked cold at S2 opener. VAT-on-discounted-subtotal precision note logged |

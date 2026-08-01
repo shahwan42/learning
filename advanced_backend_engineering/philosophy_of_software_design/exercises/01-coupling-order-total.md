@@ -1,6 +1,6 @@
 # Exercise 01 — Coupling: read the change cost
 
-**Session:** 1 — complexity & strategy (book ch. 1–3) · **Topic:** coupling as change-cost / change amplification · **Status:** attempt 1 reviewed — follow-up pending (gates S1)
+**Session:** 1 — complexity & strategy (book ch. 1–3) · **Topic:** coupling as change-cost / change amplification · **Status:** ✅ S1 closed 2026-07-31 — residue (degree×distance calculus on a proposed fix) re-asked cold at S2 opener
 
 Realistic-ugly Laravel controller. Assume it works and is in production.
 
@@ -109,3 +109,28 @@ Bonus miss: your own migration makes `coupon.amount` polymorphic (fixed SAR vs p
 ## Follow-up attempt
 
 _(write below)_
+
+1. consumer-side list:
+  - email, erp, api consumer: total meant the sum of each item's price, now it means total with vat
+2. total -> totalWithVat, make it a bit ovious what total means now.
+
+### Delta review — 2026-07-31
+
+**Item 1: closed.** All three readers named; meaning-shift stated. One precision note that matters in your domain: "sum of each item's price" omits qty **and the coupon discount** — the old meaning was *discounted* subtotal (Σ price×qty − coupon). The requirement says VAT applies to the **discounted** subtotal; discount-before-VAT vs after-VAT changes what you owe the tax authority. In fintech, that one word is an audit finding.
+
+**Item 2: right enemy this time — credited.** A name that carries the changed meaning attacks **obscurity** (ch. 2's second cause); that's a genuine move, not a trap. But the explicitly requested sentence is missing for the second time: *which degree drops to which, at what distance.*
+
+**Closing question (S1 closes on a good answer, one or two sentences):**
+Run the calculus on your own fix. Your rename — which degree does it reduce, to which, and at what distance does the coupling it fixes actually live? Does it reach the ERP coupling you yourself named worst in task 2? If not, name one change that would.
+
+**Your closing answer:** "my change makes the distance stay the same, but the degree get to the lowest."
+
+### Close-out — 2026-07-31 · S1 closed with a residue
+
+Half right. **Degree: yes** — for readers of *this file*, meaning → name, the bottom of the table. **Distance: dodged** — the question wasn't whether the rename moves distance (nothing moves distance; distance is where the two coupled parties sit). It was: *where does the coupling you fixed live?* Answer: same function — the smallest distance there is. Pain ≈ degree × distance, so the rename lowered the cheapest factor of the cheapest coupling in the picture. Good hygiene, near-zero yield.
+
+**The ERP question (asked three times, so here is the answer): no — the rename doesn't touch it.** The wire key `'total' => …` is the contract; the ERP still knows what that number means only by convention. Meaning coupling at team distance: fully intact. And the mirror trap: rename the *payload key* instead and the same zero-cost act becomes a breaking cross-team change — that asymmetry is "as distance grows, degree must drop," felt from the other side.
+
+**The change that reaches it: additive breakdown in the payload.** Keep `total`, add `subtotal`, `vat_amount`, `vat_rate` (and while in there: `status => 'confirmed'` instead of `2`). Additive = non-breaking, ERP migrates at its own pace; explicit fields turn human convention into documented schema — degree lowered *at the distance that actually hurts*.
+
+**Residue → S2 opener (cold, 2 min):** given a proposed fix, state degree-from → degree-to **and** the distance at which the fixed coupling lives, before any code talk.
