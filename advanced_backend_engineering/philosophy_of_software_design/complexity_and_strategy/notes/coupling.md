@@ -25,6 +25,8 @@ Coupling is never zero. Judge it on two axes and you get an actionable answer.
 
 **The rule:** `pain ≈ degree × distance`.
 
+*(What "pain" means — clarified after exercise 01: it's the standing **tax the coupling charges each time a change touches it** — a rate attached to the relationship, not a one-time event. Two derived readings: cost of a change = Σ taxes of every coupling it touches; value of a fix = taxes removed − taxes added. And the third factor from the complexity note applies: realized pain also scales with how often change actually touches that coupling — untouched coupling is nearly free.)*
+
 Order coupling between two lines of the same private method is fine — nobody will ever see them apart. Meaning coupling between a controller in your app and a consumer in the ERP system is a permanent tax. So: **as distance grows, degree must drop.** That single sentence resolves most "should I extract this?" arguments.
 
 ## Direction matters as much as amount
