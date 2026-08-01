@@ -28,8 +28,8 @@
 ## Current position
 
 - **Session:** 1 — The enemy: complexity & the strategic mindset
-- **State:** taught; exercise pending → [exercises/01-coupling-order-total.md](exercises/01-coupling-order-total.md)
-- **Red flags captured:** 0 / 14
+- **State:** attempt 1 reviewed (partial) — follow-up gates S1: task-1 consumer delta + task-3 redo → [exercises/01-coupling-order-total.md](exercises/01-coupling-order-total.md)
+- **Red flags captured:** 0 / 14 (first unlocks at S2)
 
 ## Session log
 
@@ -37,3 +37,4 @@
 |------|---------|---------|
 | 2026-07-25 | (pre-book) | Profile captured; coupling-as-change-cost taught; exercise 01 issued |
 | 2026-07-30 | Course rebuilt around the book | 10-session map, red-flag game; session 1 re-taught through the book's lens; exercise 01 still the gate |
+| 2026-07-31 | 1 — attempt 1 | First session under the Less-Is-More program. Write path solid (vat-snapshot instinct ★); consumer-side blast radius missed (ERP/API/email — `total` changed meaning); task 3 picked the event = coupling.md's own decoupling trap. Follow-up issued, gates S1 |
