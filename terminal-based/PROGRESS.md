@@ -1,16 +1,18 @@
 # Terminal-Based Workflow — Study Project
 
-Practical fluency in keyboard-centric terminal workflows for a working engineer — not specialist mastery. macOS local + Ubuntu remote. Tools must be performant, portable, well-supported.
+Practical fluency in keyboard-centric terminal workflows for a working engineer — not specialist mastery. macOS host + Ubuntu (multipass VM now, remote servers later). Tools must be performant, portable, well-supported.
 
-## How sessions run
+## How lessons run (pull mode — the generic protocol lives in `../PROGRAM.md`)
 1. One concept at a time: mental model + why it works, not just what.
 2. Prerequisites taught just-in-time → `prerequisites/notes/`.
 3. One small realistic exercise → wait for the attempt → direct review.
-4. A topic is marked done only after demonstrated understanding.
+4. A topic is marked done only after demonstrated understanding; **every pull ends in a commit either way** (the receipt).
 5. Interesting tangents get parked in `revisit/README.md`, not chased.
 
-**Returning session:** read this file first → summarize where we stopped → offer: continue / switch track / revisit.
+**On "next lesson" (local defaults):** first pull = **A9 disk forensics** (instant payoff; frees disk for the Ubuntu VM image). Thereafter the default is the lowest unchecked DF topic in Track 4. On explicit request only: Track 1 topics (A1 quoting pairs with provisioning scripts; A8 pairs with A9) · AeroSpace T8 (pull-eligible now) · DF13 theme-as-data (unlocks after DF3). After DF14, the default passes to tmux (T1…), then git. herdr taste (T9) unlocks after T5.
 **Adjust anytime by saying:** "switch track" · "smaller/bigger exercises" · "go deeper on X" · "park this".
+
+**Head inventory (program v2 baseline, 2026-08-11):** 50 lessons remaining ≈ 35–40h — 17 shell (A1–A9, B1–B8) · 9 tmux (T1–T8 + T9 herdr) · 10 git · 14 DF. Reference exit window at 2–3 lessons/week: **Dec 2026 – Feb 2027**. The monthly review counts demonstrations against this line.
 
 ## Learner profile (assessed 2026-07-28)
 - **Vim:** survival level (i, Esc, :wq, hjkl); real editing still in PHPStorm/VSCode. Has started fiddling with LazyVim.
@@ -22,11 +24,11 @@ Practical fluency in keyboard-centric terminal workflows for a working engineer 
 ## Tracks & order
 | # | Track | Dir | Status | Why this order |
 |---|-------|-----|--------|----------------|
-| 1 | Shell & search | `shell-search/` | **active** | The composition layer every other tool builds on; fastest daily payoff; identical on servers |
-| 2 | tmux + tiling | `tmux/` | queued | Small surface, config already built — the container all work runs in; + AeroSpace, same model at the desktop layer |
-| 3 | Git workflows | `git/` | queued | lazygit/delta/gh: big daily wins, independent of vim skill |
+| 1 | Shell & search | `shell-search/` | active (just-in-time pulls; A9 = first pull) | The composition layer every other tool builds on; fastest daily payoff; identical on servers |
+| 2 | tmux + tiling | `tmux/` | queued (default after Track 4; T8 pull-eligible now) | Small surface, config already built — the container all work runs in; + AeroSpace, same model at the desktop layer |
+| 3 | Git workflows | `git/` | queued | lazygit/delta/gh: big daily wins, independent of vim skill. Optional REDUCE 10→5 if date guards loom (monthly-review decision) |
 | ∥ | Neovim | `neovim/` | **daily drill** | Motions need reps, not lectures — 10 min/day drill thread from day one; formal lessons ramp up after track 3 |
-| 4 | Dotfiles & provisioning | `dotfiles/` | queued | chezmoi — one repo, machine-aware templates; makes every config from tracks 1–3 portable; feeds remote-ops |
+| 4 | Reproducible environments | `dotfiles/` | **active** (redesigned Linux-first 2026-08-11) | chezmoi + multipass Ubuntu VM + devcontainers — three rebuildable layers, offline-resilient; the enjoyment head of program v2. Day-job git satisfies the old "after git" prerequisite |
 | 5 | Remote/server ops | `remote-ops/` | parked (PROGRAM.md) | Builds on shell + tmux + dotfiles bootstrap; Ubuntu focus |
 | 6 | DB & docs glue | `db-docs/` | parked (PROGRAM.md) | pgcli/Harlequin + glow/mermaid/jira-cli/mark; pull forward when work demands |
 
@@ -51,3 +53,4 @@ Practical fluency in keyboard-centric terminal workflows for a working engineer 
 - **Session 2 (prepared):** A1 — how the shell runs a command: parse → expand → split → `$PATH` exec; why quoting bugs happen. If time/energy remains: N1 — the vim grammar (verb × noun), which unlocks the 10-min daily drill thread.
 - **2026-07-29 (later)** — Full sweep of blog.starmorph.com (29 posts; 6 relevant, 23 off-purpose AI/web content). Added: A8 links & inodes (symlinks fundamentals); enriched B6 (yazi↔fd/rg/fzf/zoxide keys, plugin manifest as dotfiles data, tmux passthrough gotcha), T2 (pane surgery), T6 (display-popup; tmuxinator stays rejected — script is portable, no Ruby). Tailscale parked by user decision (see revisit). Curriculum intake is now CLOSED — **Session 1 next, no more collections before reps.**
 - **2026-07-31** — **Less-Is-More program adopted** (root `PROGRAM.md`): this project owns the P1 Weekday-A slot + the daily nvim drill through Jan 2027; tracks 5–6 parked until work demands; the "intake CLOSED" rule above is now program-wide law. Next session unchanged: A1 (+N1 to ignite the drill).
+- **2026-08-11** — **Program v2 adopted** (root `PROGRAM.md`): single-path serial queue + pull cadence ("next lesson", any day, auto-commit receipt); this project is queue head. Track 4 redesigned as **Reproducible environments** (Linux-first: minimal Mac host profile → multipass Ubuntu VM → devcontainers; chezmoi spine; Nix stays parked) — see `dotfiles/progress.md`. **A9 disk-space forensics** (built-ins only) added to shell-search. AeroSpace T8 pull-eligible now; T9 herdr taste added (unlocks after T5); DF13 theme-as-data unlocks after DF3. Head inventory baselined: 50 lessons ≈ 35–40h, exit window Dec 2026–Feb 2027. **Next pull: A9, then DF1.**

@@ -1,5 +1,5 @@
 # Track 1 — Shell & Search
-Status: **active** · Current: A1
+Status: **active** (just-in-time pulls under program v2) · Next: **A9 — recommended first pull** (A1, A8 on request; A8 pairs naturally with A9)
 Legend: `[ ]` not started · `[~]` taught, awaiting demonstration · `[x]` demonstrated
 
 ## Module A — Shell mechanics (the why-layer under every tool)
@@ -11,7 +11,8 @@ Legend: `[ ]` not started · `[~]` taught, awaiting demonstration · `[x]` demon
 - [ ] A5. zsh daily power — `**` recursive globs, glob qualifiers, history expansion, aliases vs functions, .zshrc hygiene.
 - [ ] A6. Small robust scripts — shebang, `set -euo pipefail`, functions, `$@` vs `$*`, exit codes. From copy-paste to authoring.
 - [ ] A7. Classic text tools (server-safe 20%) — sort/uniq/cut/wc, `sed s///`, `awk '{print $N}'`. For boxes where rg/jq aren't installed.
-- [ ] A8. Links & inodes — symlink vs hard link (what an inode is), the relative-to-link-location trap, `ln -sfn` idempotent swaps (the `current -> releases/N` deploy pattern), trailing-slash `rm` disaster, finding broken links; macOS notes (realpath, SIP paths). Underpins Stow/Homebrew/yazi link keys.
+- [ ] A8. Links & inodes — symlink vs hard link (what an inode is), the relative-to-link-location trap, `ln -sfn` idempotent swaps (the `current -> releases/N` deploy pattern), trailing-slash `rm` disaster, finding broken links; macOS notes (realpath, SIP paths). Underpins Stow/Homebrew/yazi link keys — and A9's hard-link double-counting.
+- [ ] A9. **Disk-space forensics & reclamation (built-ins only** — no ncdu/dust/duf; those stay in `revisit/`**)** — why `du` and `df` disagree: blocks vs apparent size, reserved blocks, mount points, **deleted-but-open files (`lsof`)**, hard-link double counting + sparse files (ties to A8), **APFS clones** (`cp -c`, copy-on-write), **APFS container-shared free space** (`diskutil apfs list` shows the real pool — volumes all report the same Available); **`df -i` inode exhaustion** (Linux/ext4 — the other "disk full"; APFS has no fixed inode table). The methodical loop: top-down narrowing with `du -x -d1 | sort -h`, find by size/age (`find -size +500M`, `-newer`/`-mtime`). macOS targets: APFS local snapshots (`tmutil listlocalsnapshots /`), purgeable space, `~/Library` caches, and the actual big rocks — multipass data under `/var/root/Library/Application Support/multipassd/` (root-owned: the `sudo du` teachable trap) and Colima's disk under `~/.colima`. Linux targets (VM rep): `journalctl --vacuum-size`, `/var/log`, apt cache, `/var/lib/docker` measured with `du -x` and reclaimed with docker's own prune. **Demonstration in two parts — one checkbox, two receipts:** part 1 now on the Mac (reclaim real space + write the personal reclamation runbook); part 2 as a 10-min rep on the Ubuntu VM once DF5 exists.
 
 ## Module B — The search & read layer
 - [ ] B1. fzf core — the fuzzy-match model; Ctrl-R history, Ctrl-T files, Alt-C cd, `**<Tab>` completion.
