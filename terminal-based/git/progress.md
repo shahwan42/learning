@@ -1,5 +1,6 @@
 # Track 3 — Git workflows
 Status: queued
+Devbox framing (v3): work repos live in the devbox — lessons target them over ssh, driven from the seat. **The per-lesson destroy-rebuild rep (DF14) is suspended during this track** — reflog/stash/worktrees ARE local state; use a re-cloned toy repo in the devbox where destruction is part of the exercise.
 Legend: `[ ]` not started · `[~]` taught, awaiting demonstration · `[x]` demonstrated
 
 - [ ] G1. lazygit orientation — the 5-panel model, `?` per-panel help, stage file vs hunk, commit. Replaces the IDE git panel outright.

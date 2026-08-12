@@ -1,5 +1,5 @@
 # Track 6 — DB & docs glue
-Status: queued (pull individual topics forward when real work demands)
+Status: parked (PROGRAM.md PARK table) — re-entry trigger: work demands (heavy DB-TUI need); individual topics may be pulled forward JIT when real work demands
 Legend: `[ ]` not started · `[~]` taught, awaiting demonstration · `[x]` demonstrated
 
 ## DB

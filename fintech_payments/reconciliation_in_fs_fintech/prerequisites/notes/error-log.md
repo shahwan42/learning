@@ -1,6 +1,6 @@
 # Personal error log
 
-Observability for your writing: every exercise review appends or increments here. Patterns that stop appearing get struck through. Frequency = priority.
+Observability for your writing: every exercise review appends or increments here (rubric check 7). Patterns that stop appearing get struck through. Frequency = priority. *(Relocated from `writing_for_pswe/mechanics/notes/` at the 2026-08-12 merge — recon owns writing craft, Law 6.)*
 
 | Pattern | Example (yours) | Fix | Seen |
 |---|---|---|---|

@@ -1,5 +1,6 @@
 # Track 2 — tmux + desktop tiling
-Status: queued — default track after Track 4 completes (program v2); **T8 is pull-eligible now** on explicit request
+Status: queued — default track after Track 4 completes; **T8 is pull-eligible now** on explicit request
+Devbox framing (v3): lessons run from Ghostty on the Mac; from T7 onward the marquee pattern is **sessions living ON the devbox**, surviving disconnects — T1–T6 build the model locally, T7 applies it seat ⇄ devbox.
 Legend: `[ ]` not started · `[~]` taught, awaiting demonstration · `[x]` demonstrated
 
 - [ ] T1. Mental model — client/server, sessions ⊃ windows ⊃ panes; why detach survives SSH drops and closed terminals.

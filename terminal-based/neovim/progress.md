@@ -1,5 +1,7 @@
 # Neovim / LazyVim — daily drill + track
 Status: **daily drill active** (10 min/day); formal lessons ramp after Track 3
+**N1 is a standalone immediate pull** (v3, 2026-08-12): 20 min, no rider — it ignites the drill thread that Law 4's green-week definition depends on. The drill log below is the receipt trail.
+**Weekly PHP kata day** (Law 9): one designated drill day per week writes a small PHP artifact by hand — task = the next unchecked topic in `../../php_mastery/design/progress.md`; file lands in `../../php_mastery/exercises/katas/`; receipt tag `[kata]`. Drilling vim motions on PHP you're hand-writing serves both threads in one rep.
 Legend: `[ ]` not started · `[~]` taught, awaiting demonstration · `[x]` demonstrated
 
 ## Phase 1 — Modal core (drill-driven; from survival level)

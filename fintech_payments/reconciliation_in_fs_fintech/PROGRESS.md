@@ -25,11 +25,22 @@ Fast-track rule: answer any unit's gate question cold → unit marked done, no l
 
 ## Protocol (every session)
 1. Read this file + the active track's `progress.md`. Summarize where we stopped; offer: continue / switch track / revisit.
-2. Teaching loop: one concept (mental model, why + how, practical consequences) → prerequisites just-in-time → one exercise (always a document) → **wait for attempt** → review with **two verdicts: domain + craft** (writing_rubric.md) → update progress only after demonstrated understanding.
+2. Teaching loop: one concept (mental model, why + how, practical consequences) → prerequisites just-in-time → one exercise (always a document) → **wait for attempt** → review with **two verdicts: domain + craft** (writing_rubric.md, 7 checks) → **append/increment `prerequisites/notes/error-log.md`** → update progress only after demonstrated understanding.
 3. Notes go to `<track>/notes/` **after** a unit is demonstrated, not before. Short: mental models, pitfalls, debugging — no textbook dumps.
 4. Doc-type skeletons are taught just-in-time before the first exercise of that type; they land in `prerequisites/notes/`.
 5. Tangents → `revisit/README.md` with a one-line why.
 6. Interview flavor: one interviewer follow-up after each review. Every track ends with a synthesis document.
+7. **Timebox (from matching_engine/1 onward):** every exercise carries a time budget; elapsed time recorded in the progress row. This owns the "one-pager ≤90 min" exit-gate line.
 
 ## Session log
 - 2026-07-26 — Assessed (profile above). Scaffolded 5 tracks / 21 units. Taught foundations/1; issued exercise 01 (CTO memo, BLUF skeleton taught JIT).
+- 2026-08-12 — **Program v3: `writing_for_pswe` merged into this project** (its MERGED.md records it). Rubric extended to 7 checks (objections; sentence mechanics); its error log relocated to `prerequisites/notes/error-log.md`; timebox rule added. This project now owns the writing exit gate: 1 real cross-team RFC rubric-graded + one-pager ≤90 min, folded into the lane-table gate.
+
+---
+
+## Program note (2026-08-12 — program v3)
+
+**Lane B #2** — activates when accounting (B1) passes its reduced gate; receipts tag `[career]`. Lane position, laws, sequencing: root `PROGRAM.md`.
+- **Honest estimate ~32h** (was 26h): the merged writing structure/genre teaching lives inside these units now.
+- **Artifact-first:** the 3 internally-published artifacts (2027-04/06 guards) outrank unit order; real work documents rubric-graded here count via `[work]` (Law 2/3) — the cheapest route to the artifact case.
+- Accounting depth beyond B1's reduced gate (money_movement, lending_revenue) is pulled just-in-time from `../accounting_for_spwe` (Law 6), never re-taught here.

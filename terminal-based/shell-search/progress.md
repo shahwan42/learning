@@ -1,5 +1,5 @@
 # Track 1 — Shell & Search
-Status: **active** (just-in-time pulls under program v2) · Next: **A9 — recommended first pull** (A1, A8 on request; A8 pairs naturally with A9)
+Status: **active** (just-in-time pulls; Lane A fallback lives here — lowest unchecked Module A topic) · Next: **A9 — recommended first pull** (A1, A8 on request; A8 pairs naturally with A9)
 Legend: `[ ]` not started · `[~]` taught, awaiting demonstration · `[x]` demonstrated
 
 ## Module A — Shell mechanics (the why-layer under every tool)

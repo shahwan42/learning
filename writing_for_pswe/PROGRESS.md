@@ -34,9 +34,6 @@ Default path: structure first; mechanics reviewed inline on every exercise from 
 
 ---
 
-## Program note (2026-07-31 — Less-Is-More program)
+## Program note (refreshed 2026-08-12 — program v3)
 
-REDUCED under the 24-month program. Slot ownership, laws, and sequencing live in `PROGRAM.md` at the learning root; this file keeps only session mechanics.
-- **Surviving scope:** structure (BLUF/pyramid) + genres (ADR/RFC/postmortem), ~12 of 25; mechanics reviewed inline as designed. From P2, reconciliation_in_fs_fintech's rubric-graded exercises become the writing gym, and every REAL work RFC/ADR/postmortem counts as a track exercise. Anchor artifact = the H2-2026 cross-team RFC. AI-assisted drafting stays parked (own design).
-- **Runs:** P1 Weekend slot after philosophy_of_software_design finishes (~Nov 2026 – Jan 2027).
-- Everything else here is dead weight — never scheduled; resurrect only via `SOMEDAY.md` + Law 1.
+**MERGED → `fintech_payments/reconciliation_in_fs_fintech/` — see `MERGED.md`.** This curriculum never runs as a lane item again; recon owns the rubric (7 checks), the error log, the genres, the timeboxing, and the exit gate (1 real cross-team RFC rubric-graded; one-pager ≤90 min). The error log moved to `reconciliation_in_fs_fintech/prerequisites/notes/error-log.md`. AI-assisted drafting stays parked (own design). Resurrect only via `SOMEDAY.md` + Law 1.

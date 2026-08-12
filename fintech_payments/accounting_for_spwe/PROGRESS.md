@@ -26,3 +26,13 @@ Recommended path: foundations 1–5 → ledger_engineering 1–3 → interleave 
 
 ## Session log
 - 2026-07-26 — Assessment: near-zero baseline; all four work areas; all four goals; irregular pacing. Project scaffolded. Taught foundations/1, issued exercise 01.
+- 2026-08-12 — **Activated as Lane B head** (program v3 adoption). Exit gate reduced (program note below). Next action unchanged: attempt `exercises/01_transfers.md` — it is the first `[career]` receipt.
+
+---
+
+## Program note (2026-08-12 — program v3; created at lane activation)
+
+**Lane B #1 — ACTIVE.** Lane position, laws, and sequencing live in `PROGRAM.md` at the learning root; this file keeps only session mechanics. Receipts tag `[career]`.
+- **Exit gate (reduced 2026-08-12):** foundations 1–8 + ledger_engineering 1–3 (**11 units**) + whiteboard the merchant-wallet/payout double-entry flow cold. money_movement and lending_revenue are **not scheduled** — they survive as just-in-time pulls from recon (Law 6: this project stays the canonical accounting source).
+- **Lane B 20-minute fallback:** the next unchecked unit here — accounting units are deliberately small and self-contained.
+- Code-bearing exercises follow Law 9 (by-hand; PHP where the domain allows).

@@ -2,6 +2,8 @@
 
 Why this track: specialist PHP is written against the type system plus static analysis, not just the runtime.
 
+**Kata-fed (v3, 2026-08-12):** this is the generative track — it closes via the weekly hand-written PHP kata (Law 9; mechanics in `../PROGRESS.md`), not scheduled lessons. The kata's task is always the next unchecked topic below; katas land in `../exercises/katas/`.
+
 | # | Topic | Status |
 |---|---|---|
 | 01 | The type system as enforced — `strict_types`, coercion rules, runtime (not compile-time) checks, variance | ○ |
