@@ -3,7 +3,9 @@
 Learner: software engineer, near-zero accounting baseline. Work context: money movement, ledger systems, reconciliation, lending/cash advance. Goals: design money schemas, debug money bugs, talk to finance, review money code. Pacing: irregular — units stay small and self-contained.
 
 ## How this works
-- One concept per unit → concise note in `<track>/notes/` → one exercise in `exercises/` → reviewed in chat → status updated only after demonstrated understanding.
+- One concept per unit → concise note in `<track>/notes/` → one exercise in `exercises/` (attempt lands in the file) → reviewed → status updated only after demonstrated understanding.
+- Every review closes with the three-line block — `residue:` (the next `[career]` pull opens with it, cold) · `edges:` (one cross-layer edge from memory → its Law-6 home) · `work hook:` (this week, or "none"). See `../../AGENTS.md`.
+- Stale unit (taught >2 weeks ago) or suspected-known → attempt the exercise cold before any re-teach; a clean reviewed pass = demonstrated (Law 3), a miss opens the lesson at the miss.
 - Interesting-but-nonessential detail is parked in `revisit/README.md`.
 - Prerequisites taught just-in-time land in `prerequisites/notes/`.
 - Curriculum is adjustable — reorder, skip, or go deeper on request.
@@ -32,7 +34,7 @@ Recommended path: foundations 1–5 → ledger_engineering 1–3 → interleave 
 
 ## Program note (2026-08-12 — program v3; created at lane activation)
 
-**Lane B #1 — ACTIVE.** Lane position, laws, and sequencing live in `PROGRAM.md` at the learning root; this file keeps only session mechanics. Receipts tag `[career]`.
+**Lane B #1 — ACTIVE.** Lane position, laws, and sequencing live in `PROGRAM.md` at the learning root; this file keeps only session mechanics. Receipts tag `[career]` with the local counter: `[career] <unit>: <outcome> (<track> n/N)`.
 - **Exit gate (reduced 2026-08-12):** foundations 1–8 + ledger_engineering 1–3 (**11 units**) + whiteboard the merchant-wallet/payout double-entry flow cold. money_movement and lending_revenue are **not scheduled** — they survive as just-in-time pulls from recon (Law 6: this project stays the canonical accounting source).
 - **Lane B 20-minute fallback:** the next unchecked unit here — accounting units are deliberately small and self-contained.
 - Code-bearing exercises follow Law 9 (by-hand; PHP where the domain allows).

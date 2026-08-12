@@ -22,6 +22,7 @@
 ## Rules
 
 - A topic is ✓ only after a reviewed exercise demonstrates understanding.
+- Stale unit (taught >2 weeks ago) or suspected-known → attempt the exercise cold before any re-teach; a clean reviewed pass = demonstrated (Law 3), a miss opens the lesson at the miss. (internals/01 will be stale when this head activates — open it cold.)
 - Interesting tangents get parked in [revisit/](revisit/README.md), not chased mid-session.
 
 ## Session log

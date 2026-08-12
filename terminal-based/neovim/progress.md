@@ -26,5 +26,11 @@ Legend: `[ ]` not started · `[~]` taught, awaiting demonstration · `[x]` demon
 - [ ] N15. PHP — intelephense deep use (references before refactor), pint on save via conform, :Trouble diagnostics triage.
 - [ ] N16. TypeScript (when NestJS/RN work starts) — vtsls, organize imports, inlay hints, eslint-lsp alongside types.
 
+## Drill-day shape (same 10 minutes, shaped)
+- ~7 min: reps of the current N-topic **on a real file** (work repo or this repo — never scratch text).
+- ~3 min: randomized mixed reps over everything previously demonstrated — confusable pairs on purpose (f/t · i(/a( · w/e · ci"/ca").
+- A motion that has felt automatic two drills running moves to the mixed pool.
+- Kata day (weekly): the PHP kata is the drill — vim motions on hand-written PHP, one rep serving both threads.
+
 ## Drill log
 (one line per drill day — date + what was drilled)

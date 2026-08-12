@@ -20,4 +20,11 @@ Events, in order:
 3. What do the four balances sum to, and why does that property require the `external:*` accounts to exist?
 4. Ali's app shows "Balance: SAR 380". In this model, what is *stored* and what is *derived*?
 
-Reply in chat, any format. Reviewed for correctness; then unit 2 maps this onto real debit/credit vocabulary.
+Write your attempt under `## Attempt` below (any format). Reviewed for correctness; then unit 2 maps this onto real debit/credit vocabulary.
+
+## Attempt
+
+## Review
+
+## Verdict
+

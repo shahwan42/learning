@@ -13,15 +13,17 @@ Practical fluency in keyboard-centric terminal workflows for a working engineer 
 - **Guiding question, answered empirically over Track 4** (not pre-decided): *which host dotfiles earn a place in the devbox profile?* Expected shape, to be tested via os × role templates (DF3): shell/tmux/nvim/git render on both roles; Ghostty/AeroSpace/GUI stay host-only.
 - Day-job work moving into the devbox is **deferred to the Jan-2027 tools-contract decision** — JetBrains Gateway friction in the A-rating year is not a risk to take by accident.
 
-## How lessons run (pull mode — the generic protocol lives in `../PROGRAM.md`)
+## How lessons run (pull mode — the generic protocol lives in `../PROGRAM.md`, conventions in `../AGENTS.md`)
 1. One concept at a time: mental model + why it works, not just what.
 2. Prerequisites taught just-in-time → `prerequisites/notes/`.
 3. One small realistic exercise → wait for the attempt → direct review. Code is written by hand (PROGRAM.md Law 9).
-4. A topic is marked done only after demonstrated understanding; **every pull ends in a commit either way** (the receipt, tagged `[craft]`).
-5. Interesting tangents get parked in `revisit/README.md`, not chased.
+4. Every review closes with the three-line block — `residue:` (the next `[craft]` pull opens with it, cold, ≤2 min) · `edges:` (one cross-layer edge from memory → its Law-6 home) · `work hook:` (this week, or "none").
+5. A topic is marked done only after demonstrated understanding; **every pull ends in a commit either way** — subject carries tag + counter: `[craft] <topic>: <outcome> (<module> n/N)`.
+6. Interesting tangents get parked in `revisit/README.md`, not chased.
 
 **On "next lesson" (local defaults):** first pull = **A9 disk forensics** (instant payoff; frees disk for the Ubuntu VM image). **N1 is a standalone immediate pull too** — 20 min, ignites the daily drill. Thereafter the default is the lowest unchecked DF topic in Track 4. **Setup-bearing topics carry a `PREP:` line — check it before starting; unmet prep → tonight's pull is the other lane or the fallback.** **20-minute fallback (Lane A): the lowest unchecked shell Module A topic** (A1 is written and waiting). On explicit request only: other Track 1 topics · AeroSpace T8 (pull-eligible now) · DF13 theme-as-data (unlocks after DF3). After DF14, the default passes to tmux (T1…), then git. herdr taste (T9) unlocks after T5.
 **Adjust anytime by saying:** "switch track" · "smaller/bigger exercises" · "go deeper on X" · "park this".
+**Each pull's session-log line ends with `next default: <topic>` + its `PREP:` line verbatim, if any** — prep runs tonight, not at the next 9pm.
 
 **Head inventory (v3 baseline, 2026-08-12):** 50 lessons remaining ≈ 35–40h — 17 shell (A1–A9, B1–B8) · 9 tmux (T1–T8 + T9 herdr) · 10 git · 14 DF. (+9 remote-ops ≈ +8h if Track 5's trigger fires.) Reference exit window at 2–3 *total* pulls/week with Lane A getting ~half: **~Apr–Aug 2027**. The monthly review counts demonstrations against this line.
 
