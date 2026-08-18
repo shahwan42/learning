@@ -35,3 +35,7 @@ Fast-track rule: every topic has a **gate question**. Answer it cold → marked 
 
 ## Session log
 - 2026-07-26 — Assessment done (profile above). Scaffold created. Assigned Exercise 00 (calibration: add a second PSP behind a unified API). Depth map: pending attempt review.
+
+## Career-leverage scope (2026-08-18)
+
+Reduced to a Phase 3 scenario source. Use provider abstraction, routing/failover, async state, and operational trade-offs only when an integration or system-design case requires them. Do not complete six tracks or use TypeScript merely to satisfy this curriculum.

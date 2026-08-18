@@ -38,9 +38,6 @@ Fast-track rule: answer any unit's gate question cold → unit marked done, no l
 
 ---
 
-## Program note (2026-08-12 — program v3)
+## Career-leverage scope (2026-08-18)
 
-**Lane B #2** — activates when accounting (B1) passes its reduced gate; receipts tag `[career]`. Lane position, laws, sequencing: root `PROGRAM.md`.
-- **Honest estimate ~32h** (was 26h): the merged writing structure/genre teaching lives inside these units now.
-- **Artifact-first:** the 3 internally-published artifacts (2027-04/06 guards) outrank unit order; real work documents rubric-graded here count via `[work]` (Law 2/3) — the cheapest route to the artifact case.
-- Accounting depth beyond B1's reduced gate (money_movement, lending_revenue) is pulled just-in-time from `../accounting_for_spwe` (Law 6), never re-taught here.
+Active in `../../CURRENT.md` Phase 2. Keep foundations, matching, exceptions, controls, and one concise operational/design artifact. The aim is to reason about independent records, settlement truth, mismatches, and auditability—not to complete a 21-unit writing/interview curriculum. A real work document can replace a synthetic exercise when it is reviewed for both domain correctness and clarity.

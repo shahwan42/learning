@@ -1,5 +1,7 @@
 # Computer Networks Fundamentals — Progress
 
+> **Career-leverage status (2026-08-18): REDUCE.** Use HTTP/TLS and failure-path reasoning when a live debugging/design case calls for it; no broad network survey.
+
 ## Learner profile
 
 - **Context:** PHP 8.3 / Laravel backend engineer; AWS infra at work. macOS (Colima for containers).

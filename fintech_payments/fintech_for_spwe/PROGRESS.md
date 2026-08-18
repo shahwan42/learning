@@ -32,9 +32,6 @@ Uneven-depth rule: any topic can be fast-tracked — answer its gate question co
 
 ---
 
-## Program note (2026-07-31 — Less-Is-More program)
+## Career-leverage scope (2026-08-18)
 
-REDUCED under the 24-month program. Slot ownership, laws, and sequencing live in `PROGRAM.md` at the learning root; this file keeps only session mechanics.
-- **Surviving scope:** 3 KSA-rails units (mada/SARIE/SADAD) for domain credibility in P2; the interview-oriented track runs when interviews do (its stated purpose).
-- **Runs:** Rails units: P2 (Feb–Jul 2027). Interview track: P3b breadth queue (Oct 2027+), cold-gate-first.
-- Everything else here is dead weight — never scheduled; resurrect only via `SOMEDAY.md` + Law 1.
+JIT only. Pull a rail or product concept when a current work/design question needs it. This is not an interview curriculum and has no scheduled KSA-rail survey.

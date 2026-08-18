@@ -1,5 +1,7 @@
 # Study Project — Algorithms & Data Structures (Node.js)
 
+> **Career-leverage status (2026-08-18): JIT.** This is not an active learning queue; pull only the smallest slice demanded by a real problem or active interview search.
+
 How data structures and algorithms actually work — for real backend code first, interviews second. Complements `../problem_solving/` (interview pattern drills): this project builds the machinery, that one drills applying it under interview conditions.
 
 ## Learner profile (assessed 2026-07-25)

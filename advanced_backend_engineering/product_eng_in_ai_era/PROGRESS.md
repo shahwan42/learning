@@ -1,6 +1,6 @@
 # Product Engineering in the AI Era — Progress
 
-Interactive study project. Practical fluency, not specialist mastery.
+Interactive study project. Practical engineering leverage, not AI-specialist mastery.
 
 ## Calibration (2026-07-26)
 - **Scope:** both directions, workflow-first — Track A (working with AI) is the spine; building AI features (B), reliability (C), and product judgment (D) follow.
@@ -23,3 +23,7 @@ One concept → one exercise → wait for attempt → review directly → mark d
 
 ## Session log
 - **2026-07-26** — Assessment + scaffold. Calibration set (workflow-first, zero API baseline, Laravel+Python, all four goals). A1 taught, exercise issued (`exercises/a1_predictions.md`).
+
+## Career-leverage scope (2026-08-18)
+
+Only Track A is active, and only as an embedded practice in `../../CURRENT.md`: investigation, test design, code review, refactoring, documentation, and architecture exploration. Tracks B–D are JIT; do not study LLM features, eval systems, or AI product strategy as standalone breadth.

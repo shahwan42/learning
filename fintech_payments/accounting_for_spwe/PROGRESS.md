@@ -32,9 +32,6 @@ Recommended path: foundations 1–5 → ledger_engineering 1–3 → interleave 
 
 ---
 
-## Program note (2026-08-12 — program v3; created at lane activation)
+## Career-leverage scope (2026-08-18)
 
-**Lane B #1 — ACTIVE.** Lane position, laws, and sequencing live in `PROGRAM.md` at the learning root; this file keeps only session mechanics. Receipts tag `[career]` with the local counter: `[career] <unit>: <outcome> (<track> n/N)`.
-- **Exit gate (reduced 2026-08-12):** foundations 1–8 + ledger_engineering 1–3 (**11 units**) + whiteboard the merchant-wallet/payout double-entry flow cold. money_movement and lending_revenue are **not scheduled** — they survive as just-in-time pulls from recon (Law 6: this project stays the canonical accounting source).
-- **Lane B 20-minute fallback:** the next unchecked unit here — accounting units are deliberately small and self-contained.
-- Code-bearing exercises follow Law 9 (by-hand; PHP where the domain allows).
+Active in `../../CURRENT.md` Phase 2. Keep the smallest sequence that makes financial state defensible: conservation, account roles, balanced journals, balances, transfers, reversals, and ledger invariants. `money_movement` and `lending_revenue` are JIT unless a live product decision needs them. Use realistic payment/reconciliation scenarios rather than completing every unit.

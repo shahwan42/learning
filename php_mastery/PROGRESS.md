@@ -1,5 +1,7 @@
 # PHP Mastery — Progress
 
+> **Career-leverage status (2026-08-18): JIT.** Pull the smallest relevant PHP/Laravel topic only when work exposes a real gap. This directory is not a scheduled path.
+
 **Learner:** software engineer; ships Laravel features at work; strongest language Python (mental models taught by contrast).
 **Baseline:** PHP 8.3 (local and assumed work runtime). 8.4/8.5 deltas flagged as they come up.
 **Goal:** specialist-level mastery: internals, design, Laravel, performance.

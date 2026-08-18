@@ -1,5 +1,7 @@
 # Multi-tenancy at Scale — Study Project
 
+> **Career-leverage status (2026-08-18): JIT.** Pull only for a live tenant-isolation or topology decision.
+
 Practical-fluency curriculum (not specialist mastery). One concept + one exercise per session; progress updates only after demonstrated understanding. Sibling of `../study-project/` (systems) and `../software_design/`.
 
 ## Calibration (2026-07-26 assessment)

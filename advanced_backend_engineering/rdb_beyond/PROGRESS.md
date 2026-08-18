@@ -56,9 +56,6 @@ Suggested path: **A0 → A-track**, B interleaves early (B1 pairs well after A1)
 
 ---
 
-## Program note (2026-07-31 — Less-Is-More program)
+## Career-leverage scope (2026-08-18)
 
-REDUCED under the 24-month program. Slot ownership, laws, and sequencing live in `PROGRAM.md` at the learning root; this file keeps only session mechanics.
-- **Surviving scope:** ~12 topics: indexes/EXPLAIN, transactions/isolation, locking, replication basics. The docker lab (port 3307, 2.3M rows) is kept permanently as the incident-rehearsal instrument — one real production incident reproduced monthly in P2.
-- **Runs:** P2 Weekday-B slot, Feb 2027 (weeks 1–14). Also pre-pays system_design's data track — its units run gate-first in P3.
-- Everything else here is dead weight — never scheduled; resurrect only via `SOMEDAY.md` + Law 1.
+Keep this as an active reference for transaction boundaries, isolation/locking, query-plan diagnosis, safe schema evolution, and production investigation. It supports `CURRENT.md` Phase 1; do not work through it as a complete database curriculum. The lab is optional and runs only when a real diagnosis or tightly matched scenario justifies it.

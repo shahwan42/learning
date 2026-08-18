@@ -1,5 +1,7 @@
 # Terminal-Based Workflow — Study Project
 
+> **Career-leverage status (2026-08-18): JIT.** This is no longer an active curriculum. Resolve concrete workflow friction only; `PROGRAM.md` and `CURRENT.md` own the active path. Existing uncommitted exercise work remains valid and untouched.
+
 Practical fluency in keyboard-centric terminal workflows for a working engineer — not specialist mastery. macOS host + Ubuntu (multipass VM now, remote servers later). Tools must be performant, portable, well-supported.
 
 ## The devbox pattern (v3, 2026-08-12)

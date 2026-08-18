@@ -1,5 +1,7 @@
 # Study Project — Problem Solving (LeetCode-style, Node.js)
 
+> **Career-leverage status (2026-08-18): JIT.** Interview practice activates only in an actual job-search window.
+
 Pattern-based problem solving for a working engineer. Goal: steady interview readiness (no deadline) plus sharper algorithmic judgment for daily work.
 
 ## Learner profile (assessed 2026-07-25)

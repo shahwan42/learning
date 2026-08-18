@@ -1,5 +1,7 @@
 # Storytelling for Interviews — Progress
 
+> **Career-leverage status (2026-08-18): JIT.** Capture meaningful work facts as evidence, but defer formal interview-story practice until a real search or advancement window.
+
 **Who:** Senior Backend / Product Engineer. Python/Django + PHP/Laravel, fintech & payments (KSA digital banking, Foodics). Learning JS/TS.
 
 **Assessment (2026-07-25):**

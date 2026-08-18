@@ -1,7 +1,7 @@
 # System Design — Progress
 
 **Started:** 2026-07-26
-**Learner profile:** Laravel/MySQL engineer. Goals: better decisions at work now → specialist depth → staff/architect credibility. **Interview ramp Oct 2027, active applications Q1–Q2 2028** (Less-Is-More program, root `PROGRAM.md`).
+**Learner profile:** Laravel/MySQL engineer. Goal: better backend/fintech engineering decisions now; this is not an interview-drill track.
 **Scale exposure so far:** ~10⁴–10⁵ req/day, TB-scale DB, never on call, no perf/optimisation work.
 
 ## Calibration (2026-07-26)
@@ -30,7 +30,11 @@ Tracks interleave once foundations is done — the plan is adjustable at any poi
 
 ## Sequencing rationale
 
-Foundations first because you can't reason about *any* tradeoff without a cost model — probe 4 showed there isn't one yet. Then data (your daily work, and where your existing knowledge compounds fastest), then async (probe 2's gap — the highest-value gap for a payments-adjacent codebase), then reliability (probe 3 and 5). Design comes last on purpose: interview designs are hollow without the primitives. **Program note (2026-07-31):** this project runs in Phase 3 — foundations from Aug 2027 (P3a), the rest from Oct 2027 (P3b). The data track ≈ `rdb_beyond` and the async track ≈ reconciliation/outbox material demonstrated in Phase 2, so **attempt every unit's gate question cold first** (PROGRAM.md, Law 7); the lesson opens only on failure.
+Foundations first because you can't reason about a trade-off without a cost model. Then data (daily-work compounding), async (idempotency/delivery), and reliability (failure propagation). Use design exercises to integrate the primitives rather than practising interview performance. Attempt a unit’s gate question cold before teaching it; a clean answer demonstrates it.
+
+## Career-leverage scope (2026-08-18)
+
+Active under `../../CURRENT.md` Phase 1. Keep only cost/latency, data consistency, async correctness, reliability, and financial-system design scenarios. The broad interview schedule, mocks, and application preparation are JIT for a real search window.
 
 ## Current position
 

@@ -1,30 +1,28 @@
-# ledger-capstone — Scope Contract
+# Financial-systems design case — optional evidence project
 
-**The 2028 portfolio artifact. Dormant until August 2027 — the first session is P3a Weekend #1, not one minute earlier.** This file is the entire scaffold; creating more structure before Aug 2027 violates PROGRAM.md Law 1.
+This is the program’s **only optional project**. It exists only if real work by June 2027 has not produced enough evidence of backend/fintech judgment. It is not a language-learning project and is not a deadline-driven portfolio obligation.
 
-## What it is
+## Trigger and budget
 
-A **TypeScript double-entry ledger for merchant wallets, payouts, and POS reconciliation** — deliberately the author's exact work domain, so every design decision is defensible in a senior interview from lived experience. One artifact that answers "tell me about a system you designed," proves the TS second stack without a second-stack curriculum, and feeds 3–4 STAR stories.
+Start only after the April 2027 quarterly review identifies an evidence gap. Hard cap: **8–12 hours**. If the trigger does not fire, do not start it.
 
-## Merge sources (these curricula are consumed by this project — do not run them standalone)
+## Scope
 
-- `ledger_ts/` — the build spine (JS→TS, CLI→HTTP, invariants). Its accounting track is dead (canonical source: `fintech_payments/accounting_for_spwe`); its node/TS tracks are dead (canonical source: `njs_ts/study-project`).
-- `fintech_payments/payments_orchestration/` — multi-PSP orchestration becomes the v1 module.
-- `njs_ts/study-project/` — ~12 node-runtime/TS topics pulled **just-in-time** as the build demands them.
+Create one reviewable design case for a merchant-wallet payout flow:
 
-## v0 — P3a, Aug–Sep 2027, ~14h
+- account model and double-entry invariants;
+- API/state transitions for payment, payout, reversal, and retry;
+- transaction boundary plus outbox/idempotency approach;
+- reconciliation inputs, mismatches, and operational controls;
+- observability, failure modes, test strategy, and key trade-offs;
+- a concise ADR-style rationale.
 
-- CLI double-entry ledger: immutable journal, balanced-posting invariant enforced in the type system **and** in tests.
-- BLUF-structured README with design rationale — the writing track's real-world exam.
-- Cheap on purpose: the accounting *knowledge* is demonstrated in P2; v0 is expression, not learning.
-- **Public on GitHub by Jan 2028** (P3 exit) so applications from Feb have something pinned.
+A small prototype is optional only when it clarifies a design risk. The implementation language is chosen for speed and relevance; TypeScript is not required.
 
-## v1 — P4, Feb–May 2028, ~30h
+## Evidence standard
 
-- HTTP API + multi-PSP orchestration module + reconciliation module (settlement-file matching).
-- One derived technical blog post. Pinned during applications.
-- **Scope valve:** if Dec 2027 mock scores are poor, v1 shrinks to the recon module only (~15h freed for interview prep).
+The artifact is useful only if the learner can explain the trade-offs, defend the failure handling, and connect it to a real system. A work RFC, incident analysis, or implemented production improvement that meets the same standard replaces this project.
 
-## Scope law
+## Exclusions
 
-Anything beyond the modules above — UI, auth, deployment theatre, admin panels, "just one more feature" — goes to `../SOMEDAY.md`. The capstone exists to be **shown**, not to be complete. Claude Code is allowed for scaffolding: the learning target is design judgment, not typing (the unassisted-writing rule applies to prose, not code).
+No UI, authentication, deployment theatre, framework demonstration, blog quota, or extra integrations. Those belong in `../SOMEDAY.md` unless a concrete career need changes the trade-off.

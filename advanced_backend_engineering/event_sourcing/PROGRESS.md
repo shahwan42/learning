@@ -1,5 +1,7 @@
 # Event Sourcing — Study Project
 
+> **Career-leverage status (2026-08-18): JIT.** Event sourcing is a pattern to evaluate for a real problem, not an active default architecture curriculum.
+
 Practical-fluency curriculum. Primary goal: **adoption judgment** — know when event sourcing fits, argue for/against it credibly, grounded by building one.
 
 ## Calibration (2026-07-26 assessment)

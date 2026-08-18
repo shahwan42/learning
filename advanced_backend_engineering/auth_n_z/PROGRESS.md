@@ -1,5 +1,7 @@
 # Auth N+Z — Study Project
 
+> **Career-leverage status (2026-08-18): JIT.** Pull only for an active security or product-boundary decision.
+
 Authentication & authorization for practical backend development. Sibling of
 `../study-project/` (systems) and `../software_design/` (design). Exercises: PHP 8.3 /
 Laravel primary; Django/NestJS appear in critique exercises only. Labs run on

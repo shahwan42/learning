@@ -1,5 +1,7 @@
 # A Philosophy of Software Design — Progress
 
+> **Career-leverage status (2026-08-18): REDUCE.** Use only its coupling, complexity, and module-boundary ideas while reviewing real code or writing decisions; do not complete this as a standalone book track.
+
 **Spine:** Ousterhout, *A Philosophy of Software Design*, 2nd ed. (the epub in iBooks). This course walks the whole book in 10 concept-cluster sessions; the freeform software-design tracks it replaced live in [post_book/](post_book/README.md) and resume after the book.
 
 **Learner profile:** Backend engineer, PHP/Laravel. Ships features confidently; design decisions currently intuitive rather than articulated. Target: practical working fluency, not specialist mastery.

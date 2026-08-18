@@ -34,9 +34,6 @@ Fast-track rule: demonstrate a topic's competency check cold and it's marked don
 
 ---
 
-## Program note (2026-07-31 — Less-Is-More program)
+## Career-leverage scope (2026-08-18)
 
-REDUCED under the 24-month program. Slot ownership, laws, and sequencing live in `PROGRAM.md` at the learning root; this file keeps only session mechanics.
-- **Surviving scope:** ~5 units: tokenization, PCI-DSS scope, webhook signing, 3DS, secrets handling.
-- **Runs:** P2 Weekday-B slot, late (~weeks 15–24, Apr–Jul 2027).
-- Everything else here is dead weight — never scheduled; resurrect only via `SOMEDAY.md` + Law 1.
+JIT support for Phase 3. Pull only the integration-security material required by a real webhook, API, token, secret, or payment-boundary decision. Webhook authenticity, replay/duplicate handling, secrets, and PCI/token boundaries survive; checkout surveys and fraud breadth do not form a queue.

@@ -1,5 +1,7 @@
 # Study Project — Node.js / TypeScript
 
+> **Career-leverage status (2026-08-18): JIT.** No standalone Node/TypeScript learning is scheduled. Use only when a concrete project or role needs it.
+
 Practical curriculum for a working software engineer. Goal: productive development, not specialist mastery.
 
 ## Learner profile (assessed 2026-07-25)
