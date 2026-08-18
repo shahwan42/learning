@@ -20,30 +20,34 @@ The program explicitly does **not** attempt language/framework collection, front
 
 ## One active path
 
-There are no lanes, alternation rules, quotas, or date guards. Work through the current phase in order, but always prefer a live work problem that exercises the phase's capability. A work problem is the lesson when it offers a real decision, investigation, design, or postmortem.
+There are no lanes, alternation rules, quotas, or date guards. A phase defines the capabilities to demonstrate; repository curricula are only optional source material. Never finish a track for its own sake. Stop using any source as soon as its relevant capability has credible evidence.
+
+Always prefer a live work problem that exercises the current capability. A work problem is the lesson when it offers a real decision, investigation, design, or postmortem.
 
 `CURRENT.md` is the operational queue and is the only file an agent needs to choose a normal next lesson.
 
 ## 12-month roadmap
 
-| Phase | Approx. window | Focus | Evidence |
+| Phase | Approx. window | Capabilities to demonstrate | Evidence |
 |---|---:|---|---|
-| 1. Transactional backend judgment | Aug–Nov 2026 | latency/cost, database transaction boundaries, locking/isolation, idempotency, retries, observability | 3–5 reviewed scenario analyses or work decisions |
-| 2. Financial-system truth | Dec 2026–Feb 2027 | double-entry invariants, balances, payment state machines, reconciliation, settlement/exceptions, audit trails | a ledger/reconciliation design and one work application |
-| 3. Reliable integration architecture | Mar–May 2027 | async boundaries, outbox/queues, webhooks, consistency, failure containment, API/integration trade-offs | 2 architecture decisions and one failure-mode review |
-| 4. Consolidation and optionality | Jun–Jul 2027 | system-design synthesis, technical communication, evidence packaging, targeted AI workflow improvement | a concise design case or real-work equivalent; quarterly evidence review |
+| 1. Transactional backend judgment | Aug–Nov 2026 | cost/failure reasoning; transactional correctness; async-boundary decisions; observable failure containment | reviewed decisions or work analyses that pass the Phase 1 gates |
+| 2. Financial-system truth | Dec 2026–Feb 2027 | financial invariants/data model; money-state transitions; reconciliation and audit controls | a ledger/reconciliation design and one work application that pass the Phase 2 gates |
+| 3. Reliable integration architecture | Mar–May 2027 | integration contracts/security; consistency and failure trade-offs; payment architecture simplification | 2 architecture decisions and one failure-mode review that pass the Phase 3 gates |
+| 4. Consolidation and optionality | Jun–Jul 2027 | end-to-end system judgment; decision communication; AI-amplified engineering workflow | a concise design case or real-work equivalent that passes the Phase 4 gates |
 
 AI-assisted engineering is practiced in every phase, not as a separate technology curriculum. Each month, deliberately improve one workflow and record whether it saved time, found a defect, clarified a decision, or produced a better artifact.
 
-### Planned learning load
+### Planning capacity, not a completion target
 
-The roadmap contains roughly **90–115 hours** of intentional learning over 12 months: 70–90 hours of exercises/design work and 20–25 hours of review, retrieval, and quarterly reflection. Work applications may replace—not add to—study time when they meet the lesson standard.
+Roughly **90–115 hours** is an approximate 12-month planning capacity, not a consumption or completion target. It estimates what sustained practice might fit; it does not create an obligation to consume 100 hours. Work applications may replace—not add to—study time when they meet the demonstration standard.
+
+Annual success is judged by demonstrated capabilities, quality of technical decisions, transfer to real work, useful artifacts, fintech depth, AI leverage, and sustainability. Hours are diagnostic context only.
 
 At the 1-hour floor, complete the current phase more slowly; do not compress or skip ahead. At survival level, answer one residue question or review one decision for ~30 minutes. In a crisis, pause entirely.
 
-## Small active curriculum
+## Active source material
 
-Only these sources are active:
+These are sources that may teach or test an active capability. None is an active curriculum to finish:
 
 | Area | Scope |
 |---|---|
@@ -61,11 +65,12 @@ All other material is classified in `AUDIT.md`; it is not an alternate queue.
 Trigger: **“next lesson”**, optionally with available time (for example, “next lesson, 30 minutes”) or a work problem.
 
 1. Read `CURRENT.md`. Resume a taught-but-undemonstrated or banked attempt first. If its last contact was over two weeks ago, start cold with the exercise/gate question.
-2. If the learner offers a current work problem that fits the phase, use it. Otherwise take the first incomplete unit in the current module. For 30 minutes, choose the listed survival exercise or shrink the scenario rather than switching tracks.
-3. Teach only enough mental model to make a decision. Give one realistic exercise: design, debugging, code review, data experiment, failure analysis, or short technical writing.
-4. Wait for the learner’s attempt. During the attempt, provide prose, pseudocode, documentation pointers, and named functions—not runnable exercise-language code. Review the attempt directly and mark a unit demonstrated only after a reviewed pass.
-5. Close the exercise or log entry with three brief learner-generated lines: `residue:`, `work application:`, and `evidence:`. `none` is valid. A non-empty work application becomes the next practical follow-up when possible.
-6. Update `CURRENT.md` and the source progress/exercise file. Commit the reviewed lesson or the monthly/quarterly review; no lane tags, throughput quotas, or mandatory push ceremony.
+2. Identify the highest-value unresolved capability gap in the current phase. Internally answer: (a) which capability is being developed, (b) what evidence already exists, (c) what smallest exercise could expose the remaining gap, (d) which source—if any—can help close it, and (e) whether a real work problem can replace the synthetic exercise. A phase diagnostic determines the first gap; demonstrated capabilities are skipped.
+3. If the learner offers a current work problem that fits the capability, use it. Otherwise choose the smallest useful exercise or source material. Unchecked source units never create an obligation. For 30 minutes, shrink the same decision/problem rather than switching tracks.
+4. Teach only enough mental model to make and defend a decision. Prefer prompts of the form “What would you do, and why?” Give one realistic design, debugging, code-review, data, failure-analysis, or technical-writing exercise.
+5. Wait for the learner’s attempt. During the attempt, provide prose, pseudocode, documentation pointers, and named functions—not runnable exercise-language code. Review the attempt directly against the capability’s pass standard.
+6. Close the exercise or log entry with three brief learner-generated lines: `residue:`, `work application:`, and `evidence:`. `none` is valid. A non-empty work application becomes the next practical follow-up when possible.
+7. Update `CURRENT.md` and, only when useful, the source exercise/progress file. Commit the reviewed lesson or the monthly/quarterly review; no lane tags, throughput quotas, or mandatory push ceremony.
 
 ### Reduce before abandoning
 
@@ -79,7 +84,7 @@ Trigger: **“next lesson”**, optionally with available time (for example, “
 Track only enough to preserve continuity:
 
 - intentional learning hours (rough total, not a target to repay);
-- meaningful exercises attempted and demonstrated;
+- meaningful exercises attempted and demonstrated capabilities;
 - work applications;
 - useful artifacts: ADRs/RFCs, incident analyses, designs, tests, operational improvements, or validated AI workflows.
 

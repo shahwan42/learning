@@ -1,5 +1,7 @@
 # System Design — Progress
 
+> **Program status (2026-08-18): source material, not a curriculum to finish.** Use only to close an unresolved capability in `../../CURRENT.md`; phase diagnostics and capability pass standards decide what to study and when to stop.
+
 **Started:** 2026-07-26
 **Learner profile:** Laravel/MySQL engineer. Goal: better backend/fintech engineering decisions now; this is not an interview-drill track.
 **Scale exposure so far:** ~10⁴–10⁵ req/day, TB-scale DB, never on call, no perf/optimisation work.

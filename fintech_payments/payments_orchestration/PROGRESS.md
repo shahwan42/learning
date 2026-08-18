@@ -1,5 +1,7 @@
 # Payments Orchestration — Progress
 
+> **Program status (2026-08-18): source material, not a curriculum to finish.** Use only to close an unresolved capability in `../../CURRENT.md`; phase diagnostics and capability pass standards decide what to study and when to stop.
+
 ## Learner profile (assessed 2026-07-26)
 - Context: building **multi-PSP integration/routing at work** (in-house, production — not vendor evaluation)
 - Experience: multiple PSPs shipped; all four core areas already touched (idempotency/webhooks, routing/failover, vaulting/tokenization, reconciliation)

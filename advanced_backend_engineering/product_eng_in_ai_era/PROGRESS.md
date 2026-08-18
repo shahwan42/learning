@@ -1,5 +1,7 @@
 # Product Engineering in the AI Era — Progress
 
+> **Program status (2026-08-18): source material, not a curriculum to finish.** Use only to close an unresolved capability in `../../CURRENT.md`; phase diagnostics and capability pass standards decide what to study and when to stop.
+
 Interactive study project. Practical engineering leverage, not AI-specialist mastery.
 
 ## Calibration (2026-07-26)

@@ -1,5 +1,7 @@
 # Reconciliation in Financial Systems & Fintech — Progress
 
+> **Program status (2026-08-18): source material, not a curriculum to finish.** Use only to close an unresolved capability in `../../CURRENT.md`; phase diagnostics and capability pass standards decide what to study and when to stop.
+
 ## Learner profile (assessed 2026-07-26)
 - Recon exposure: **zero** — build from first principles
 - Dual goal: recon competence for **Senior Backend/Product Engineer interviews** + **document-writing practice** — every exercise is a written artifact

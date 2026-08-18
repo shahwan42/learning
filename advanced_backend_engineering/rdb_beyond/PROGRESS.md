@@ -1,5 +1,7 @@
 # Relational Databases — Beyond Tutorials
 
+> **Program status (2026-08-18): source material, not a curriculum to finish.** Use only to close an unresolved capability in `../../CURRENT.md`; phase diagnostics and capability pass standards decide what to study and when to stop.
+
 Practical-fluency curriculum (not specialist mastery). One concept + one exercise per session; progress updates only after demonstrated understanding. Sibling of `../study-project/` (systems), `../multi-tenancy_at_scale/`, `../auth_n_z/`, `../computer_networks_fundamentals/`, `../software_design/`.
 
 ## Calibration (2026-07-26 assessment)

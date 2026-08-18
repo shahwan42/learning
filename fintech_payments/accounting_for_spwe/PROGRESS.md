@@ -1,5 +1,7 @@
 # Accounting for Fintech SW/Product Engineers
 
+> **Program status (2026-08-18): source material, not a curriculum to finish.** Use only to close an unresolved capability in `../../CURRENT.md`; phase diagnostics and capability pass standards decide what to study and when to stop.
+
 Learner: software engineer, near-zero accounting baseline. Work context: money movement, ledger systems, reconciliation, lending/cash advance. Goals: design money schemas, debug money bugs, talk to finance, review money code. Pacing: irregular — units stay small and self-contained.
 
 ## How this works

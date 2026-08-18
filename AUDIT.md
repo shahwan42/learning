@@ -6,7 +6,7 @@ Every item was classified as **KEEP**, **REDUCE**, **JIT**, **ARCHIVE**, or **SO
 
 | Item | Decision | Why | Surviving scope |
 |---|---|---|---|
-| `terminal-based` | JIT | Tool fluency is useful but its 35–40h path is not the highest return. | Fix concrete workflow friction only; retain current uncommitted A9 exercise untouched. |
+| `terminal-based` | JIT | Tool fluency is useful but its 35–40h path is not the highest return. | Fix concrete workflow friction only. |
 | `php_mastery` | JIT | The learner already ships PHP/Laravel. | Work-triggered internals, queues, transactions, profiling. |
 | `ledger_ts` | ARCHIVE | Duplicate ledger/accounting and adds a Node/TS detour. | None. |
 | `writing_for_pswe` | REDUCE | Decision writing matters, but exercises should be real technical artifacts. | ADR/RFC/postmortem fragments embedded in lessons. |
@@ -44,7 +44,7 @@ Every item was classified as **KEEP**, **REDUCE**, **JIT**, **ARCHIVE**, or **SO
 | Dimension | Old | New |
 |---|---|---|
 | Operating model | Two alternating lanes, guards, counters, quotas, convergence | One phase-based path with a single current queue |
-| Time basis | ~351–356 planned hours / 24 months plus receipts and habits | ~90–115 intentional hours / 12 months; 1h floor, no catch-up |
+| Time basis | ~351–356 planned hours / 24 months plus receipts and habits | ~90–115 hours of planning capacity / 12 months; 1h floor, no catch-up; not a completion target |
 | Active subject area | Terminal workflow, PHP, accounting, reconciliation, design, RDB, packs, capstone, future interview prep | Backend judgment, financial-system truth, reliable integrations, integrated AI leverage |
 | Work integration | Separate lane artifacts and story-bank machinery | Work case may replace a synthetic lesson; every lesson records application/evidence |
 | Interviews | Scheduled for 2027–28 | JIT when a real search starts |

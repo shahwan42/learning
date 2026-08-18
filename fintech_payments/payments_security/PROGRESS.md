@@ -1,5 +1,7 @@
 # Securing Online Payments & Money Movements — Progress
 
+> **Program status (2026-08-18): source material, not a curriculum to finish.** Use only to close an unresolved capability in `../../CURRENT.md`; phase diagnostics and capability pass standards decide what to study and when to stop.
+
 ## Learner profile (assessed 2026-07-26)
 - SWE; self-assessed hands-on in all four probe areas (PSP integration, card data/PCI, 3DS/OTP, crypto plumbing) — **depth unverified until Exercise 00 is reviewed**
 - Goal: **practical development** — build, review, and debug payment flows securely; not specialist (QSA/pentest) mastery

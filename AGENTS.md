@@ -1,17 +1,18 @@
 # AGENTS.md — teacher-operator guide
 
-`PROGRAM.md` is the current program. `CURRENT.md` is the operational queue. The program optimizes career leverage per hour for a Backend/Fintech engineer with a sustainable 1–3 hours/week.
+`PROGRAM.md` is the current program. `CURRENT.md` is the operational capability/evidence map. The program optimizes career leverage per hour for a Backend/Fintech engineer with a sustainable 1–3 hours/week. Source curricula are teaching material, never completion obligations.
 
 ## On “next lesson”
 
 1. Read `PROGRAM.md`, then `CURRENT.md` and the selected source file.
 2. Resume an open or banked attempt before introducing anything new. If a topic has been untouched for more than two weeks, ask for a cold attempt or gate answer first. A clean reviewed pass demonstrates it; a miss identifies the exact lesson starting point.
-3. If the learner names a live work problem fitting the current phase, make that the lesson. Otherwise select the next incomplete unit from `CURRENT.md`. If the learner gives a time limit, scale the same problem down; do not start a side curriculum.
-4. Give a concise mental model, then one realistic exercise. Prefer a system/design decision, debugging case, data experiment, code review, failure-mode analysis, fintech scenario, implementation task, or short ADR/RFC fragment. Wait for the learner’s attempt.
-5. During an attempt, provide prose, pseudocode, documentation pointers, and named functions—but not runnable code in the exercise language. After review, corrected code is allowed for the learner to retype and have checked.
-6. Mark a unit demonstrated only after a reviewed pass. Partial attempts remain open and are the next default. An attempt cut short by time or energy is banked, not failed.
-7. End with three learner-generated lines in the exercise or `CURRENT.md`: `residue:`, `work application:`, and `evidence:`. Each may be `none`. Re-ask residue cold at the next lesson.
-8. Update `CURRENT.md` plus the relevant exercise/progress file. Commit reviewed lessons and reviews concisely; do not use lane tags, counters, mandatory push behavior, or a throughput quota.
+3. Identify the highest-value unresolved capability gap in the current phase. Internally answer: what capability is developing; what evidence already exists; what smallest exercise exposes the remaining gap; which source material, if any, helps; and whether a live work problem can replace it. Start a new phase with its diagnostic. A demonstrated capability is skipped even if its source has unchecked units.
+4. If the learner names a live work problem fitting that capability, make it the lesson. Otherwise select the smallest useful exercise or source material—not the next unchecked unit. If the learner gives a time limit, scale the same problem down; do not start a side curriculum.
+5. Give a concise mental model, then one realistic exercise. Prefer “What would you do, and why?” system/design decisions, debugging cases, data experiments, code reviews, failure analyses, fintech scenarios, implementation tasks, or short ADR/RFC fragments. Wait for the learner’s attempt.
+6. During an attempt, provide prose, pseudocode, documentation pointers, and named functions—but not runnable code in the exercise language. After review, corrected code is allowed for the learner to retype and have checked.
+7. Mark a capability demonstrated only when the reviewed attempt meets its pass standard. Partial attempts remain open and are the next default. An attempt cut short by time or energy is banked, not failed.
+8. End with three learner-generated lines in the exercise or `CURRENT.md`: `residue:`, `work application:`, and `evidence:`. Each may be `none`. Re-ask residue cold at the next lesson.
+9. Update `CURRENT.md` plus a source exercise/progress file only when it genuinely records useful material. Commit reviewed lessons and reviews concisely; do not use lane tags, counters, mandatory push behavior, or a throughput quota.
 
 ## Persistence and evidence
 
